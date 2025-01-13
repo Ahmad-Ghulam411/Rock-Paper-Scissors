@@ -27,9 +27,9 @@ def playgame ():
         print(f"Sisa nyawa kamu : {nyawa_kamu}, Sisa nyawa bot : {nyawa_bot}")
     
     if nyawa_kamu > 0:
-        print(f"Selamat king, lu menang permainan ini! | Jumlah Putaran: {babak_permainan}")
+        print(f"Selamat king, lu menang permainan ini! 👑 | Jumlah Putaran: {babak_permainan}")
     else:
-        print(f"Yah, kok kamu kalah? Yuk coba lagi! | Jumlah Putaran: {babak_permainan}")
+        print(f"Yah, kok kamu kalah 😓? Yuk coba lagi! | Jumlah Putaran: {babak_permainan}")
 
     
 playgame()
